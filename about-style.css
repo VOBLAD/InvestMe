@@ -1,0 +1,113 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+::-webkit-scrollbar{
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background: #ef1a1a;
+    border-radius: 6px;
+}
+img{
+    width: 300px;
+ }
+ a{
+     padding: 20px;
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     cursor: pointer;
+ }
+ .title{
+    display: flex;
+    justify-content: space-between;
+ }
+ .fav{
+     position: relative;
+     top: 60px;
+ }
+ .fav a{
+     color: black;
+ }
+ .fav img{
+     justify-content: center;
+     
+ }
+ .title img{
+     width: 300px;
+ }
+ 
+.main-about{
+    margin-top: 5%;
+    text-align: center;
+    display: grid;
+    width: 100%;
+}
+ .about{
+    display: grid;  
+ }
+ .btns button{
+     width: 250px;
+     font-size: 15px;
+     height: 30px;
+     border-radius: 5px;
+     border: none;
+     color: #fff;
+     background-color: rgba(17, 25, 40, 0.75);
+ }
+
+ .btns button:hover{
+    background-color: red;
+    cursor: pointer;
+ }
+ .name{
+   
+    font-size: 40px;
+ }
+
+ .main-container .container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    top: 50px;
+ }
+ .main-container.hide{
+    display: none;
+ }
+ .container{
+    max-width: 700px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 35px;
+ }
+ .fundamental{
+    padding: 40px;
+    display: grid;
+    font-size: 30px;
+    color: #fff;
+}
+.dividends{
+    padding: 40px;
+    display: grid;
+    font-size: 30px;
+    color: #fff;
+}
+.about-company{
+    padding: 40px;
+    display: grid;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+
+.value{
+    display: flex;
+    justify-content: space-between;
+}
+.container.hide {
+    display: none;
+}

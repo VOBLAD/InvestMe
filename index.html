@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="title">
+        <a href="index.html"><img src="images/inv.png"></a>
+        <span class="fav">
+        <a href="">Избранное</a><img style="width: 15px;" src="images/fav.png">
+        <a href="dividends.html">Дивиденды</a><img style="width: 15px;" src="images/div.png">
+        </span>
+    </div>
+    <div id="filter-buttons">
+        <button class="btn 1 active" data-filter="all" >Все компаний</button>
+        <button class="btn 2 " data-filter="oilgaz" >Нефть и Газ</button>
+        <button class="btn 3 " data-filter="finans" >Финансы</button>
+        <button class="btn 4 " data-filter="energy" >Энергетика</button>
+        <button class="btn 5 " data-filter="it-telekom" >ИТ и Телеком</button>
+        <button class="btn 6 " data-filter="steal" >Метталургия и Золото</button>
+    </div>
+
+
+    <div class="main-container">
+    <div class="container" id="container">
+        <div class="card" data-name="oilgaz">
+            <img src="images/ros.png">
+            <a href="ros.html">Роснефть</a>
+            <a href="ros.html">ROSN</a>
+        </div>
+        <div class="card" data-name="finans">
+            <img src="images/sb.png">
+            <a href="sber.html">Сбербанк</a>
+            <a href="sber.html">SBER</a>
+        </div>
+        <div class="card"  data-name="oilgaz">
+            <img src="images/nova.png">
+            <a href="nova.html">Новатэк</a>
+            <a href="nova.html">NVTK</a>
+        </div>
+        <div class="card" data-name="steal">
+            <img src="images/nor.png">
+            <a href="">Норникель</a>
+            <a href="">GMKN</a>
+        </div>
+        <div class="card" data-name="oilgaz">
+            <img src="images/gz.png">
+            <a href="">Газпром</a>
+            <a href="">GAZP</a>
+        </div>
+        <div class="card"  data-name="oilgaz">
+            <img src="images/lk.png">
+            <a href="">Лукойл</a>
+            <a href="">LKOH</a>
+        </div>
+        <div class="card" href="index.html" data-name="steal">
+            <img src="images/pz.png">
+            <a href="">Полюс</a>
+            <a href="">PLZL</a>
+        </div>
+        <div class="card"  data-name="oilgaz">
+            <img src="images/tat.png">
+            <a href="">Татнефть</a>
+            <a href="">TATN</a>
+        </div>
+        <div class="card" data-name="it-telekom">
+            <img src="images/ya.png">
+            <a href="">Яндекс</a>
+            <a href="">YNDX</a>
+        </div>
+        <div class="card" data-name="it-telekom">
+            <img src="images/mts.png">
+            <a href="">МТС</a>
+            <a href="">MTSS</a>
+        </div>
+        <div class="card" data-name="steal">
+            <img src="images/rual.png">
+            <a href="">Русал</a>
+            <a href="">RUAL</a>
+        </div>
+        <div class="card" data-name="energy">
+            <img src="images/ir.png">
+            <a href="">ИнтерРао</a>
+            <a href="">IRAO</a>
+        </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
